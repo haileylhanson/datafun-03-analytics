@@ -158,8 +158,8 @@ wheel
 # Easy logging for monitoring code execution
 loguru
 
-# HTTP requests made simple
-# requests
+HTTP requests made simple
+requests
 
 # Environment variables management
 # python-dotenv
@@ -200,9 +200,9 @@ jupyterlab-git
 # EXCEL FILE READING AND WRITING
 # ======================================================
 
-# Primary library for Excel (both .xls and .xlsx); handles formulas, charts, formatting (~8 MB)
-# Used by pandas and other libraries.
-# openpyxl
+Primary library for Excel (both .xls and .xlsx); handles formulas, charts, formatting (~8 MB)
+Used by pandas and other libraries.
+openpyxl
 
 # For writing advanced Excel files (.xlsx)
 # xlsxwriter
