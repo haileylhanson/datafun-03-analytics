@@ -103,20 +103,6 @@
 #    in the bottom-left corner of the VS Code window in the status bar.
 
 # ======================================================
-# STEP E: OPTIONAL: If Using Notebook, Select Kernel
-# ======================================================
-# To select a kernel (Python environment) for your notebook in Visual Studio Code, 
-# click on the Select Kernel name in the top-right corner of the notebook 
-# interface and choose the desired kernel from the dropdown menu. 
-# Follow any suggestions to install recommended extensions. 
-# Once installed, click "Select Kernel" / "Python Environments" and choose the 
-# recommended (.venv) option created for the project. 
-# This will create a new kernel for the notebook and allow you to run code
-# in the notebook using the packages installed in the virtual environment.
-# After installing any new packages, you may need to close all instances of VS Code
-# and restart completely to have your updated environment take effect. 
-
-# ======================================================
 # COMMON STANDARD LIBRARY MODULES (NO INSTALL REQUIRED)
 # ======================================================
 # These modules are built into Python and do NOT need to be installed.
@@ -158,7 +144,7 @@ wheel
 # Easy logging for monitoring code execution
 loguru
 
-HTTP requests made simple
+# HTTP requests made simple
 requests
 
 # Environment variables management
@@ -168,40 +154,33 @@ requests
 # TEXT-TO-SPEECH
 # ======================================================
 # Offline text-to-speech library for Python (1-15 MB)
-pyttsx3  
+# pyttsx3  
 
 # ======================================================
-# JUPYTERLAB (OPTIONAL, NEEDED FOR NOTEBOOKS)
+# JUPYTERLAB + NOTEBOOK SUPPORT
 # ======================================================
 
-# Next-generation web-based interactive development environment for Jupyter notebooks, code, and data.
-# Offers a more feature-rich and versatile experience than the classic Jupyter Notebook. (60-70 MB)
+# Optional: Next-generation Jupyter IDE (~60-70 MB). Use if working in JupyterLab directly.
 # jupyterlab
 
-# Core IPython package that provides an enhanced interactive Python shell (10-15 MB).
-ipython
-
-# Core Jupyter functionality required for running notebooks in VS Code (50-60 MB).
-jupyter
+# Core Jupyter functionality required for running notebooks in VS Code (~50-60 MB).
+# jupyter
 
 # Kernel interface for Jupyter notebooks (required for proper kernel registration)
-ipykernel
+# ipykernel
 
-# Interactive widgets (often used in notebooks).
-ipywidgets
+# Core IPython shell for enhanced interactivity in notebooks (~10–15 MB).
+# ipython
 
-# tool for “diffing” and merging of Jupyter Notebooks
-nbdime
-
-# a JupyterLab extension for version control using git
-jupyterlab-git
+# Optional: Interactive widgets for Jupyter notebooks (sliders, dropdowns, etc.)
+# ipywidgets
 
 # ======================================================
 # EXCEL FILE READING AND WRITING
 # ======================================================
 
-Primary library for Excel (both .xls and .xlsx); handles formulas, charts, formatting (~8 MB)
-Used by pandas and other libraries.
+# Primary library for Excel (both .xls and .xlsx); handles formulas, charts, formatting (~8 MB)
+# Used by pandas and other libraries.
 openpyxl
 
 # For writing advanced Excel files (.xlsx)
@@ -255,10 +234,10 @@ openpyxl
 # ======================================================
 
 # Core library for creating visualizations (~30 MB)
-matplotlib
+# matplotlib
 
 # Statistical data visualization library built on matplotlib (~2-5 MB)
-seaborn
+# seaborn
 
 # Interactive plotting library, often used with Shiny apps (~20-25 MB)
 # plotly
@@ -274,23 +253,20 @@ seaborn
 # KAFKA STREAMING MESSAGE BROKER INTEGRATION
 # ======================================================
 
-# Kafka Python client (lightweight, ~1 MB)
-# Supports Kafka 3.5+ with KRaft mode (no ZooKeeper required)
+# Apache Kafka Python client (~1 MB)
 # kafka-python-ng
 
 # ======================================================
 # STREAM PROCESSING - CAN BE VERY LARGE
 # ======================================================
 
-# PySpark for structured streaming (heavy, 200+ MB)
-# Requires Python < 3.12 (use Python 3.11)
+# Streaming data processing framework (~200-250 MB)
+# Python compatibility varies by Spark version. Check the official documentation.
+# Currently requires Python <3.12, e.g. 3.11
 # pyspark<4.0.0
 
 # Alternative lightweight parallel computing framework
 # dask  
-
-# Optional: streamz for lightweight streaming
-# streamz
 
 # ======================================================
 # MACHINE LEARNING (ML) and STATISTICAL MODELING
