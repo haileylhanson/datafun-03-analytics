@@ -1,0 +1,3 @@
+Minimum Penguin Body Mass: 2700.00
+Maximum Penguin Body Mass: 6300.00
+Average (mean) Penguin Body Mass: 4201.75
