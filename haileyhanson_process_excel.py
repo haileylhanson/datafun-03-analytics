@@ -39,7 +39,7 @@ def count_word_in_column(file_path: pathlib.Path, column_letter: str) -> int: #,
         sheet = workbook.active
         count = 0
         for cell in sheet[column_letter]:
-            print(f"cell value = {cell.value}\n")
+            #print(f"cell value = {cell.value}\n")
             if cell.value > 1:
                 count = cell.value
         return count
