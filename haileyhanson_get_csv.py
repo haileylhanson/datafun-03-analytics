@@ -30,26 +30,8 @@ FETCHED_DATA_DIR = "downloaded_data"
 #####################################
 
 def fetch_csv_file(folder_name: str, filename: str, url: str) -> None:
-    '''
-        #Fetch CSV data from the given URL and write it to a file.
-
-        Args:
-            folder_name (str): "downloaded_data"
-            filename (str): "cats.csv"
-            url (str): "https://www.kaggle.com/datasets/ma7555/cat-breeds-dataset/data"
-
-        Returns:
-            None
-
-        Example:
-            fetch_csv_file("data", "data.csv", "https://www.kaggle.com/datasets/ma7555/cat-breeds-dataset/data")
-        
-        if not url:
-            logger.error("The URL provided is empty. Please provide a valid URL.")
-            return
-    '''
-
-    #url: str = "https://www.kaggle.com/datasets/ma7555/cat-breeds-dataset/data"
+    #Fetch CSV data from the given URL and write it to a file.
+    
     try:
         logger.info(f"Fetching CSV data from {url}...")
         response = requests.get(url)
@@ -62,17 +44,8 @@ def fetch_csv_file(folder_name: str, filename: str, url: str) -> None:
         logger.error(f"Request error occurred: {req_err}")
 
 def write_csv_file(folder_name: str, filename: str, string_data: str) -> None:
-    """
-    Write CSV data to a file.
-
-    Args:
-        folder_name (str): Name of the folder to save the file.
-        filename (str): Name of the output file.
-        string_data (str): CSV content as a string.
-
-    Returns:
-        None
-    """
+    #Write CSV data to a file.
+    
     file_path = pathlib.Path(folder_name).joinpath(filename)
     try:
         logger.info(f"Writing CSV data to {file_path}...")
