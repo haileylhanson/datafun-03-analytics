@@ -38,7 +38,7 @@ def main():
         haileyhanson_get_text.main()
         haileyhanson_process_text.process_text_file()
     else:
-        print("please start again choossing a valid number 1, 2, 3, or 4")
+        print("please start again choosing a valid number 1, 2, 3, or 4")
         exit
 
 
