@@ -472,3 +472,165 @@
 2025-09-11 22:24:22.654 | INFO     | __main__:<module>:68 - Starting text processing...
 2025-09-11 22:24:22.656 | INFO     | __main__:process_text_file:61 - Processed text file: downloaded_data/aliceinwonderland.txt, Word count saved to: downloaded_data_processed/mad_word_count.txt
 2025-09-11 22:24:22.656 | INFO     | __main__:<module>:70 - Text processing complete.
+2025-09-11 22:36:05.418 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-11 22:36:05.418 | INFO     | __main__:main:97 - Starting Excel fetch demonstration...
+2025-09-11 22:36:05.418 | INFO     | __main__:fetch_excel_file:56 - Fetching Excel data from https://github.com/bharathirajatut/sample-excel-dataset/blob/master/fullmoon.xls...
+2025-09-11 22:36:05.864 | INFO     | __main__:write_excel_file:80 - Writing Excel data to downloaded_data/fullmoons.xlsx...
+2025-09-11 22:36:05.867 | INFO     | __main__:write_excel_file:84 - SUCCESS: Excel data written to downloaded_data/fullmoons.xlsx
+2025-09-11 22:36:05.868 | INFO     | __main__:fetch_excel_file:60 - SUCCESS: Excel file fetched and saved as fullmoons.xlsx
+2025-09-11 22:45:06.134 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-11 22:45:06.135 | INFO     | __main__:main:97 - Starting Excel fetch demonstration...
+2025-09-11 22:45:06.135 | INFO     | __main__:fetch_excel_file:56 - Fetching Excel data from https://github.com/bharathirajatut/sample-excel-dataset/blob/master/fullmoon.xls...
+2025-09-11 22:45:06.543 | INFO     | __main__:write_excel_file:80 - Writing Excel data to downloaded_data/fullmoons.xls...
+2025-09-11 22:45:06.544 | INFO     | __main__:write_excel_file:84 - SUCCESS: Excel data written to downloaded_data/fullmoons.xls
+2025-09-11 22:45:06.544 | INFO     | __main__:fetch_excel_file:60 - SUCCESS: Excel file fetched and saved as fullmoons.xls
+2025-09-11 22:51:56.598 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-11 22:51:56.598 | INFO     | __main__:<module>:81 - Starting Excel processing...
+2025-09-11 22:51:56.598 | ERROR    | __main__:count_fridays_in_column:46 - Error reading Excel file: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+2025-09-11 22:51:56.599 | INFO     | __main__:process_excel_file:74 - Processed Excel file: downloaded_data/fullmoons.xls, Word count saved to: downloaded_data_processed/excel_friday_fullmoons.txt
+2025-09-11 22:51:56.599 | INFO     | __main__:<module>:83 - Excel processing complete.
+2025-09-11 22:52:24.022 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-11 22:52:24.023 | INFO     | __main__:main:97 - Starting Excel fetch demonstration...
+2025-09-11 22:52:24.023 | INFO     | __main__:fetch_excel_file:56 - Fetching Excel data from https://github.com/bharathirajatut/sample-excel-dataset/blob/master/fullmoon.xls...
+2025-09-11 22:52:24.513 | INFO     | __main__:write_excel_file:80 - Writing Excel data to downloaded_data/fullmoons.xlsx...
+2025-09-11 22:52:24.516 | INFO     | __main__:write_excel_file:84 - SUCCESS: Excel data written to downloaded_data/fullmoons.xlsx
+2025-09-11 22:52:24.516 | INFO     | __main__:fetch_excel_file:60 - SUCCESS: Excel file fetched and saved as fullmoons.xlsx
+2025-09-11 22:52:51.469 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-11 22:52:51.470 | INFO     | __main__:<module>:81 - Starting Excel processing...
+2025-09-11 22:52:51.470 | ERROR    | __main__:count_fridays_in_column:46 - Error reading Excel file: File is not a zip file
+2025-09-11 22:52:51.470 | INFO     | __main__:process_excel_file:74 - Processed Excel file: downloaded_data/fullmoons.xlsx, Word count saved to: downloaded_data_processed/excel_friday_fullmoons.txt
+2025-09-11 22:52:51.470 | INFO     | __main__:<module>:83 - Excel processing complete.
+2025-09-11 22:55:31.595 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-11 22:55:31.596 | INFO     | __main__:<module>:82 - Starting Excel processing...
+2025-09-11 22:55:31.596 | ERROR    | __main__:count_fridays_in_column:47 - Error reading Excel file: File is not a zip file
+2025-09-11 22:55:31.596 | INFO     | __main__:process_excel_file:75 - Processed Excel file: downloaded_data/fullmoons.xlsx, Word count saved to: downloaded_data_processed/excel_friday_fullmoons.txt
+2025-09-11 22:55:31.596 | INFO     | __main__:<module>:84 - Excel processing complete.
+2025-09-11 22:56:14.713 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-11 22:56:14.713 | INFO     | __main__:<module>:84 - Starting Excel processing...
+2025-09-11 22:56:14.713 | ERROR    | __main__:count_fridays_in_column:49 - Error reading Excel file: File is not a zip file
+2025-09-11 22:56:14.713 | INFO     | __main__:process_excel_file:77 - Processed Excel file: downloaded_data/fullmoons.xlsx, Word count saved to: downloaded_data_processed/excel_friday_fullmoons.txt
+2025-09-11 22:56:14.713 | INFO     | __main__:<module>:86 - Excel processing complete.
+2025-09-11 22:56:55.635 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-11 22:56:55.635 | INFO     | __main__:<module>:86 - Starting Excel processing...
+2025-09-11 22:56:55.635 | ERROR    | __main__:count_fridays_in_column:51 - Error reading Excel file: File is not a zip file
+2025-09-11 22:56:55.636 | INFO     | __main__:process_excel_file:79 - Processed Excel file: downloaded_data/fullmoons.xlsx, Word count saved to: downloaded_data_processed/excel_friday_fullmoons.txt
+2025-09-11 22:56:55.636 | INFO     | __main__:<module>:88 - Excel processing complete.
+2025-09-11 22:57:36.831 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-11 22:57:36.831 | INFO     | __main__:<module>:87 - Starting Excel processing...
+2025-09-11 22:57:36.831 | ERROR    | __main__:count_fridays_in_column:52 - Error reading Excel file: File is not a zip file
+2025-09-11 22:57:36.831 | INFO     | __main__:process_excel_file:80 - Processed Excel file: downloaded_data/fullmoons.xlsx, Word count saved to: downloaded_data_processed/excel_friday_fullmoons.txt
+2025-09-11 22:57:36.831 | INFO     | __main__:<module>:89 - Excel processing complete.
+2025-09-11 23:07:10.967 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-11 23:07:10.968 | INFO     | __main__:main:97 - Starting Excel fetch demonstration...
+2025-09-11 23:07:10.968 | INFO     | __main__:fetch_excel_file:56 - Fetching Excel data from http://gstore.unm.edu/apps/rgisarchive/datasets/7bbe8af5-029b-4adf-b06c-134f0dd57226/nps_boundary.derived.xls...
+2025-09-11 23:07:11.401 | INFO     | __main__:write_excel_file:80 - Writing Excel data to downloaded_data/nationalparks.xlsx...
+2025-09-11 23:07:11.403 | INFO     | __main__:write_excel_file:84 - SUCCESS: Excel data written to downloaded_data/nationalparks.xlsx
+2025-09-11 23:07:11.403 | INFO     | __main__:fetch_excel_file:60 - SUCCESS: Excel file fetched and saved as nationalparks.xlsx
+2025-09-11 23:13:17.381 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-11 23:13:17.381 | INFO     | __main__:<module>:86 - Starting Excel processing...
+2025-09-11 23:13:17.383 | ERROR    | __main__:count_word_in_column:52 - Error reading Excel file: "There is no item named '[Content_Types].xml' in the archive"
+2025-09-11 23:13:30.751 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-11 23:13:30.752 | INFO     | __main__:<module>:86 - Starting Excel processing...
+2025-09-11 23:13:30.752 | ERROR    | __main__:count_word_in_column:52 - Error reading Excel file: "There is no item named '[Content_Types].xml' in the archive"
+2025-09-11 23:13:30.752 | INFO     | __main__:process_excel_file:79 - Processed Excel file: downloaded_data/nationalparks.xlsx, Word count saved to: downloaded_data_processed/excel_.txt
+2025-09-11 23:13:30.752 | INFO     | __main__:<module>:88 - Excel processing complete.
+2025-09-11 23:13:57.874 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-11 23:13:57.874 | INFO     | __main__:<module>:86 - Starting Excel processing...
+2025-09-11 23:13:57.874 | ERROR    | __main__:count_word_in_column:52 - Error reading Excel file: "There is no item named '[Content_Types].xml' in the archive"
+2025-09-11 23:13:57.875 | INFO     | __main__:process_excel_file:79 - Processed Excel file: downloaded_data/nationalparks.xlsx, Word count saved to: downloaded_data_processed/excel_.txt
+2025-09-11 23:13:57.875 | INFO     | __main__:<module>:88 - Excel processing complete.
+2025-09-11 23:14:04.319 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-11 23:14:04.319 | INFO     | __main__:<module>:86 - Starting Excel processing...
+2025-09-11 23:14:04.319 | ERROR    | __main__:count_word_in_column:52 - Error reading Excel file: "There is no item named '[Content_Types].xml' in the archive"
+2025-09-11 23:14:04.319 | INFO     | __main__:process_excel_file:79 - Processed Excel file: downloaded_data/nationalparks.xlsx, Word count saved to: downloaded_data_processed/excel_.txt
+2025-09-11 23:14:04.319 | INFO     | __main__:<module>:88 - Excel processing complete.
+2025-09-11 23:14:10.551 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-11 23:14:10.551 | INFO     | __main__:<module>:86 - Starting Excel processing...
+2025-09-11 23:14:10.552 | ERROR    | __main__:count_word_in_column:52 - Error reading Excel file: "There is no item named '[Content_Types].xml' in the archive"
+2025-09-11 23:14:10.552 | INFO     | __main__:process_excel_file:79 - Processed Excel file: downloaded_data/nationalparks.xlsx, Word count saved to: downloaded_data_processed/excel_.txt
+2025-09-11 23:14:10.552 | INFO     | __main__:<module>:88 - Excel processing complete.
+2025-09-11 23:14:26.638 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-11 23:14:26.639 | INFO     | __main__:<module>:86 - Starting Excel processing...
+2025-09-11 23:14:26.639 | ERROR    | __main__:count_word_in_column:52 - Error reading Excel file: "There is no item named '[Content_Types].xml' in the archive"
+2025-09-11 23:14:26.639 | INFO     | __main__:process_excel_file:79 - Processed Excel file: downloaded_data/nationalparks.xlsx, Word count saved to: downloaded_data_processed/excel_.txt
+2025-09-11 23:14:26.639 | INFO     | __main__:<module>:88 - Excel processing complete.
+2025-09-11 23:14:33.017 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-11 23:14:33.017 | INFO     | __main__:<module>:86 - Starting Excel processing...
+2025-09-11 23:14:33.018 | ERROR    | __main__:count_word_in_column:52 - Error reading Excel file: "There is no item named '[Content_Types].xml' in the archive"
+2025-09-11 23:14:33.018 | INFO     | __main__:process_excel_file:79 - Processed Excel file: downloaded_data/nationalparks.xlsx, Word count saved to: downloaded_data_processed/excel_.txt
+2025-09-11 23:14:33.018 | INFO     | __main__:<module>:88 - Excel processing complete.
+2025-09-11 23:16:37.864 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-11 23:16:37.864 | INFO     | __main__:main:97 - Starting Excel fetch demonstration...
+2025-09-11 23:16:37.864 | INFO     | __main__:fetch_excel_file:56 - Fetching Excel data from http://gstore.unm.edu/apps/rgisarchive/datasets/7bbe8af5-029b-4adf-b06c-134f0dd57226/nps_boundary.derived.xls...
+2025-09-11 23:16:38.269 | INFO     | __main__:write_excel_file:80 - Writing Excel data to downloaded_data/nationalparks.xls...
+2025-09-11 23:16:38.270 | INFO     | __main__:write_excel_file:84 - SUCCESS: Excel data written to downloaded_data/nationalparks.xls
+2025-09-11 23:16:38.270 | INFO     | __main__:fetch_excel_file:60 - SUCCESS: Excel file fetched and saved as nationalparks.xls
+2025-09-11 23:16:42.060 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-11 23:16:42.060 | INFO     | __main__:<module>:83 - Starting Excel processing...
+2025-09-11 23:16:42.061 | ERROR    | __main__:count_word_in_column:49 - Error reading Excel file: "There is no item named '[Content_Types].xml' in the archive"
+2025-09-11 23:16:42.061 | INFO     | __main__:process_excel_file:76 - Processed Excel file: downloaded_data/nationalparks.xlsx, Word count saved to: downloaded_data_processed/excel_.txt
+2025-09-11 23:16:42.061 | INFO     | __main__:<module>:85 - Excel processing complete.
+2025-09-11 23:16:53.837 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-11 23:16:53.837 | INFO     | __main__:<module>:83 - Starting Excel processing...
+2025-09-11 23:16:53.838 | ERROR    | __main__:count_word_in_column:49 - Error reading Excel file: "There is no item named '[Content_Types].xml' in the archive"
+2025-09-11 23:16:53.838 | INFO     | __main__:process_excel_file:76 - Processed Excel file: downloaded_data/nationalparks.xlsx, Word count saved to: downloaded_data_processed/excel_.txt
+2025-09-11 23:16:53.838 | INFO     | __main__:<module>:85 - Excel processing complete.
+2025-09-11 23:17:23.115 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-11 23:17:23.115 | INFO     | __main__:<module>:83 - Starting Excel processing...
+2025-09-11 23:17:23.115 | ERROR    | __main__:count_word_in_column:49 - Error reading Excel file: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+2025-09-11 23:17:23.115 | INFO     | __main__:process_excel_file:76 - Processed Excel file: downloaded_data/nationalparks.xls, Word count saved to: downloaded_data_processed/excel_.txt
+2025-09-11 23:17:23.115 | INFO     | __main__:<module>:85 - Excel processing complete.
+2025-09-11 23:22:19.522 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-11 23:22:19.522 | INFO     | __main__:<module>:83 - Starting Excel processing...
+2025-09-11 23:22:19.523 | ERROR    | __main__:count_word_in_column:49 - Error reading Excel file: [Errno 2] No such file or directory: 'downloaded_data/fullmoons.xlsx'
+2025-09-11 23:22:19.523 | INFO     | __main__:process_excel_file:76 - Processed Excel file: downloaded_data/fullmoons.xlsx, Word count saved to: downloaded_data_processed/excel_friday_fullmoons.txt
+2025-09-11 23:22:19.523 | INFO     | __main__:<module>:85 - Excel processing complete.
+2025-09-11 23:23:31.163 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-11 23:23:31.163 | INFO     | __main__:<module>:83 - Starting Excel processing...
+2025-09-11 23:23:31.169 | INFO     | __main__:process_excel_file:76 - Processed Excel file: downloaded_data/fullmoons.xlsx, Word count saved to: downloaded_data_processed/excel_friday_fullmoons.txt
+2025-09-11 23:23:31.169 | INFO     | __main__:<module>:85 - Excel processing complete.
+2025-09-11 23:24:28.305 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-11 23:24:28.305 | INFO     | __main__:<module>:83 - Starting Excel processing...
+2025-09-11 23:24:28.311 | ERROR    | __main__:count_word_in_column:49 - Error reading Excel file: friday is not a valid coordinate or range
+2025-09-11 23:24:28.311 | INFO     | __main__:process_excel_file:76 - Processed Excel file: downloaded_data/fullmoons.xlsx, Word count saved to: downloaded_data_processed/excel_friday_fullmoons.txt
+2025-09-11 23:24:28.312 | INFO     | __main__:<module>:85 - Excel processing complete.
+2025-09-11 23:24:41.272 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-11 23:24:41.272 | INFO     | __main__:<module>:83 - Starting Excel processing...
+2025-09-11 23:24:41.278 | INFO     | __main__:process_excel_file:76 - Processed Excel file: downloaded_data/fullmoons.xlsx, Word count saved to: downloaded_data_processed/excel_friday_fullmoons.txt
+2025-09-11 23:24:41.278 | INFO     | __main__:<module>:85 - Excel processing complete.
+2025-09-11 23:24:56.620 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-11 23:24:56.620 | INFO     | __main__:<module>:83 - Starting Excel processing...
+2025-09-11 23:24:56.626 | INFO     | __main__:process_excel_file:76 - Processed Excel file: downloaded_data/fullmoons.xlsx, Word count saved to: downloaded_data_processed/excel_friday_fullmoons.txt
+2025-09-11 23:24:56.626 | INFO     | __main__:<module>:85 - Excel processing complete.
+2025-09-11 23:25:55.037 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-11 23:25:55.037 | INFO     | __main__:<module>:81 - Starting Excel processing...
+2025-09-11 23:25:55.044 | INFO     | __main__:process_excel_file:74 - Processed Excel file: downloaded_data/fullmoons.xlsx, Word count saved to: downloaded_data_processed/excel_friday_fullmoons.txt
+2025-09-11 23:25:55.044 | INFO     | __main__:<module>:83 - Excel processing complete.
+2025-09-11 23:26:22.704 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-11 23:26:22.704 | INFO     | __main__:<module>:82 - Starting Excel processing...
+2025-09-11 23:26:22.710 | INFO     | __main__:process_excel_file:75 - Processed Excel file: downloaded_data/fullmoons.xlsx, Word count saved to: downloaded_data_processed/excel_friday_fullmoons.txt
+2025-09-11 23:26:22.710 | INFO     | __main__:<module>:84 - Excel processing complete.
+2025-09-11 23:26:45.311 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-11 23:26:45.311 | INFO     | __main__:<module>:82 - Starting Excel processing...
+2025-09-11 23:26:45.317 | INFO     | __main__:process_excel_file:75 - Processed Excel file: downloaded_data/fullmoons.xlsx, Word count saved to: downloaded_data_processed/excel_friday_fullmoons.txt
+2025-09-11 23:26:45.317 | INFO     | __main__:<module>:84 - Excel processing complete.
+2025-09-11 23:28:55.767 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-11 23:28:55.767 | INFO     | __main__:<module>:82 - Starting Excel processing...
+2025-09-11 23:28:55.774 | INFO     | __main__:process_excel_file:75 - Processed Excel file: downloaded_data/fullmoons.xlsx, Word count saved to: downloaded_data_processed/excel_friday_fullmoons.txt
+2025-09-11 23:28:55.774 | INFO     | __main__:<module>:84 - Excel processing complete.
+2025-09-11 23:28:59.710 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-11 23:28:59.710 | INFO     | __main__:<module>:82 - Starting Excel processing...
+2025-09-11 23:28:59.715 | INFO     | __main__:process_excel_file:75 - Processed Excel file: downloaded_data/fullmoons.xlsx, Word count saved to: downloaded_data_processed/excel_friday_fullmoons.txt
+2025-09-11 23:28:59.715 | INFO     | __main__:<module>:84 - Excel processing complete.
+2025-09-11 23:33:51.456 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-11 23:33:51.456 | INFO     | __main__:<module>:82 - Starting Excel processing...
+2025-09-11 23:33:51.463 | INFO     | __main__:process_excel_file:75 - Processed Excel file: downloaded_data/fullmoons.xlsx, Word count saved to: downloaded_data_processed/excel_friday_fullmoons.txt
+2025-09-11 23:33:51.463 | INFO     | __main__:<module>:84 - Excel processing complete.
+2025-09-11 23:35:52.111 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-11 23:35:52.111 | INFO     | __main__:<module>:84 - Starting Excel processing...
+2025-09-11 23:35:52.117 | INFO     | __main__:process_excel_file:77 - Processed Excel file: downloaded_data/fullmoons.xlsx, Word count saved to: downloaded_data_processed/excel_friday_fullmoons.txt
+2025-09-11 23:35:52.117 | INFO     | __main__:<module>:86 - Excel processing complete.
+2025-09-11 23:36:42.106 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-11 23:36:42.107 | INFO     | __main__:<module>:84 - Starting Excel processing...
+2025-09-11 23:36:42.113 | INFO     | __main__:process_excel_file:77 - Processed Excel file: downloaded_data/fullmoons.xlsx, Word count saved to: downloaded_data_processed/excel_friday_fullmoons.txt
+2025-09-11 23:36:42.113 | INFO     | __main__:<module>:86 - Excel processing complete.

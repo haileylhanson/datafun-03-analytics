@@ -1,6 +1,6 @@
 """
 This example file fetches an Excel file from the web 
-and saves it to a local file named feedback.xlsx in a folder named example_data.
+and saves it to a local file named feedback.xlsx in a folder named downloaded_data.
 
 Please save a copy of the provided utils_logger.py file 
 in the same folder as this file.
@@ -27,7 +27,7 @@ from utils_logger import logger
 # Declare Global Variables
 #####################################
 
-FETCHED_DATA_DIR = "example_data"
+FETCHED_DATA_DIR = "downloaded_data"
 
 #####################################
 # Define Functions
@@ -93,9 +93,9 @@ def main():
     """
     Main function to demonstrate fetching Excel data.
     """
-    excel_url = 'https://raw.githubusercontent.com/denisecase/datafun-03-analytics/main/hosted/Feedback.xlsx'
+    excel_url = 'http://gstore.unm.edu/apps/rgisarchive/datasets/7bbe8af5-029b-4adf-b06c-134f0dd57226/nps_boundary.derived.xls'
     logger.info("Starting Excel fetch demonstration...")
-    fetch_excel_file(FETCHED_DATA_DIR, "Feedback.xlsx", excel_url)
+    fetch_excel_file(FETCHED_DATA_DIR, "fullmoons.xls", excel_url)
 
 #####################################
 # Conditional Execution
