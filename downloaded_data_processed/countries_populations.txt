@@ -1,0 +1,236 @@
+All Countries by Population:
+1,439,323,776: China
+1,380,004,385: India
+331,002,651: United States
+273,523,615: Indonesia
+220,892,340: Pakistan
+212,559,417: Brazil
+206,139,589: Nigeria
+164,689,383: Bangladesh
+145,934,462: Russia
+128,932,753: Mexico
+126,476,461: Japan
+114,963,588: Ethiopia
+109,581,078: Philippines
+102,334,404: Egypt
+97,338,579: Vietnam
+89,561,403: DR Congo
+84,339,067: Turkey
+83,992,949: Iran
+83,783,942: Germany
+69,799,978: Thailand
+67,886,011: United Kingdom
+65,273,511: France
+60,461,826: Italy
+59,734,218: Tanzania
+59,308,690: South Africa
+54,409,800: Myanmar
+53,771,296: Kenya
+51,269,185: South Korea
+50,882,891: Colombia
+46,754,778: Spain
+45,741,007: Uganda
+45,195,774: Argentina
+43,851,044: Algeria
+43,849,260: Sudan
+43,733,762: Ukraine
+40,222,493: Iraq
+38,928,346: Afghanistan
+37,846,611: Poland
+37,742,154: Canada
+36,910,560: Morocco
+34,813,871: Saudi Arabia
+33,469,203: Uzbekistan
+32,971,854: Peru
+32,866,272: Angola
+32,365,999: Malaysia
+31,255,435: Mozambique
+31,072,940: Ghana
+29,825,964: Yemen
+29,136,808: Nepal
+28,435,940: Venezuela
+27,691,018: Madagascar
+26,545,863: Cameroon
+26,378,274: Côte d'Ivoire
+25,778,816: North Korea
+25,499,884: Australia
+24,206,644: Niger
+23,816,775: Taiwan
+21,413,249: Sri Lanka
+20,903,273: Burkina Faso
+20,250,833: Mali
+19,237,691: Romania
+19,129,952: Malawi
+19,116,201: Chile
+18,776,707: Kazakhstan
+18,383,955: Zambia
+17,915,568: Guatemala
+17,643,054: Ecuador
+17,500,658: Syria
+17,134,872: Netherlands
+16,743,927: Senegal
+16,718,965: Cambodia
+16,425,864: Chad
+15,893,222: Somalia
+14,862,924: Zimbabwe
+13,132,795: Guinea
+12,952,218: Rwanda
+12,123,200: Benin
+11,890,784: Burundi
+11,818,619: Tunisia
+11,673,021: Bolivia
+11,589,623: Belgium
+11,402,528: Haiti
+11,326,616: Cuba
+11,193,725: South Sudan
+10,847,910: Dominican Republic
+10,708,981: Czech Republic (Czechia)
+10,423,054: Greece
+10,203,134: Jordan
+10,196,709: Portugal
+10,139,177: Azerbaijan
+10,099,265: Sweden
+9,904,607: Honduras
+9,890,402: United Arab Emirates
+9,660,351: Hungary
+9,537,645: Tajikistan
+9,449,323: Belarus
+9,006,398: Austria
+8,947,024: Papua New Guinea
+8,737,371: Serbia
+8,655,535: Israel
+8,654,622: Switzerland
+8,278,724: Togo
+7,976,983: Sierra Leone
+7,496,981: Hong Kong
+7,275,560: Laos
+7,132,538: Paraguay
+6,948,445: Bulgaria
+6,871,292: Libya
+6,825,445: Lebanon
+6,624,554: Nicaragua
+6,524,195: Kyrgyzstan
+6,486,205: El Salvador
+6,031,200: Turkmenistan
+5,850,342: Singapore
+5,792,202: Denmark
+5,540,720: Finland
+5,518,087: Congo
+5,459,642: Slovakia
+5,421,241: Norway
+5,106,626: Oman
+5,101,414: State of Palestine
+5,094,118: Costa Rica
+5,057,681: Liberia
+4,937,786: Ireland
+4,829,767: Central African Republic
+4,822,233: New Zealand
+4,649,658: Mauritania
+4,314,767: Panama
+4,270,571: Kuwait
+4,105,267: Croatia
+4,033,963: Moldova
+3,989,167: Georgia
+3,546,421: Eritrea
+3,473,730: Uruguay
+3,280,819: Bosnia and Herzegovina
+3,278,290: Mongolia
+2,963,243: Armenia
+2,961,167: Jamaica
+2,881,053: Qatar
+2,877,797: Albania
+2,860,853: Puerto Rico
+2,722,289: Lithuania
+2,540,905: Namibia
+2,416,668: Gambia
+2,351,627: Botswana
+2,225,734: Gabon
+2,142,249: Lesotho
+2,083,374: North Macedonia
+2,078,938: Slovenia
+1,968,001: Guinea-Bissau
+1,886,198: Latvia
+1,701,575: Bahrain
+1,402,985: Equatorial Guinea
+1,399,488: Trinidad and Tobago
+1,326,535: Estonia
+1,318,445: Timor-Leste
+1,271,768: Mauritius
+1,207,359: Cyprus
+1,160,164: Eswatini
+988,000: Djibouti
+896,445: Fiji
+895,312: Réunion
+869,601: Comoros
+786,552: Guyana
+771,608: Bhutan
+686,884: Solomon Islands
+649,335: Macao
+628,066: Montenegro
+625,978: Luxembourg
+597,339: Western Sahara
+586,632: Suriname
+555,987: Cabo Verde
+540,544: Maldives
+441,543: Malta
+437,479: Brunei
+400,124: Guadeloupe
+397,628: Belize
+393,244: Bahamas
+375,265: Martinique
+341,243: Iceland
+307,145: Vanuatu
+298,682: French Guiana
+287,375: Barbados
+285,498: New Caledonia
+280,908: French Polynesia
+272,815: Mayotte
+219,159: Sao Tome & Principe
+198,414: Samoa
+183,627: Saint Lucia
+173,863: Channel Islands
+168,775: Guam
+164,093: Curaçao
+119,449: Kiribati
+115,023: Micronesia
+112,523: Grenada
+110,940: St. Vincent & Grenadines
+106,766: Aruba
+105,695: Tonga
+104,425: U.S. Virgin Islands
+98,347: Seychelles
+97,929: Antigua and Barbuda
+85,033: Isle of Man
+77,265: Andorra
+71,986: Dominica
+65,722: Cayman Islands
+62,278: Bermuda
+59,190: Marshall Islands
+57,559: Northern Mariana Islands
+56,770: Greenland
+55,191: American Samoa
+53,199: Saint Kitts & Nevis
+48,863: Faeroe Islands
+42,876: Sint Maarten
+39,242: Monaco
+38,717: Turks and Caicos
+38,666: Saint Martin
+38,128: Liechtenstein
+33,931: San Marino
+33,691: Gibraltar
+30,231: British Virgin Islands
+26,223: Caribbean Netherlands
+18,094: Palau
+17,564: Cook Islands
+15,003: Anguilla
+11,792: Tuvalu
+11,239: Wallis & Futuna
+10,824: Nauru
+9,877: Saint Barthelemy
+6,077: Saint Helena
+5,794: Saint Pierre & Miquelon
+4,992: Montserrat
+3,480: Falkland Islands
+1,626: Niue
+1,357: Tokelau
+801: Holy See

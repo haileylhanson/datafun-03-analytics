@@ -1,1 +1,0 @@
-Occurrences of '<function count_word_in_column at 0x1030b36a0>' in column 0: 0

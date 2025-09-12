@@ -634,3 +634,368 @@
 2025-09-11 23:36:42.107 | INFO     | __main__:<module>:84 - Starting Excel processing...
 2025-09-11 23:36:42.113 | INFO     | __main__:process_excel_file:77 - Processed Excel file: downloaded_data/fullmoons.xlsx, Word count saved to: downloaded_data_processed/excel_friday_fullmoons.txt
 2025-09-11 23:36:42.113 | INFO     | __main__:<module>:86 - Excel processing complete.
+2025-09-12 00:11:21.464 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 00:11:21.464 | INFO     | __main__:main:98 - Starting JSON fetch demonstration...
+2025-09-12 00:11:21.464 | INFO     | __main__:fetch_json_file:57 - Fetching JSON data from https://data.ct.gov/api/views/5mzw-sjtu/rows.json...
+2025-09-12 00:22:33.697 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 00:22:33.697 | INFO     | __main__:main:98 - Starting JSON fetch demonstration...
+2025-09-12 00:22:33.697 | INFO     | __main__:fetch_json_file:57 - Fetching JSON data from https://github.com/sharmadhiraj/free-json-datasets/blob/master/datasets/world-population-by-country-2020.json...
+2025-09-12 00:22:34.308 | ERROR    | __main__:fetch_json_file:65 - Request error occurred: Expecting value: line 7 column 1 (char 6)
+2025-09-12 00:23:07.897 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 00:23:07.897 | INFO     | __main__:main:98 - Starting JSON fetch demonstration...
+2025-09-12 00:23:07.897 | INFO     | __main__:fetch_json_file:57 - Fetching JSON data from https://raw.githubusercontent.com/sharmadhiraj/free-json-datasets/refs/heads/master/datasets/world-population-by-country-2020.json...
+2025-09-12 00:23:07.983 | INFO     | __main__:write_json_file:81 - Writing JSON data to downloaded_data/country_populations.json...
+2025-09-12 00:23:07.985 | INFO     | __main__:write_json_file:85 - SUCCESS: JSON data written to downloaded_data/country_populations.json
+2025-09-12 00:23:07.985 | INFO     | __main__:fetch_json_file:61 - SUCCESS: JSON file fetched and saved as country_populations.json
+2025-09-12 00:35:21.696 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 00:35:21.696 | INFO     | __main__:<module>:116 - Starting JSON processing...
+2025-09-12 00:35:21.697 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:84 - Error reading or processing JSON file: 'list' object has no attribute 'get'
+2025-09-12 00:35:21.697 | INFO     | __main__:process_json_file:109 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 00:35:21.697 | INFO     | __main__:<module>:118 - JSON processing complete.
+2025-09-12 00:37:42.681 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 00:37:42.681 | INFO     | __main__:<module>:116 - Starting JSON processing...
+2025-09-12 00:37:42.682 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:84 - Error reading or processing JSON file: 'list' object has no attribute 'get'
+2025-09-12 00:37:42.682 | INFO     | __main__:process_json_file:109 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 00:37:42.682 | INFO     | __main__:<module>:118 - JSON processing complete.
+2025-09-12 00:38:16.061 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 00:38:16.061 | INFO     | __main__:<module>:117 - Starting JSON processing...
+2025-09-12 00:38:16.061 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:85 - Error reading or processing JSON file: 'list' object has no attribute 'get'
+2025-09-12 00:38:16.062 | INFO     | __main__:process_json_file:110 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 00:38:16.062 | INFO     | __main__:<module>:119 - JSON processing complete.
+2025-09-12 00:38:59.705 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 00:38:59.705 | INFO     | __main__:<module>:117 - Starting JSON processing...
+2025-09-12 00:38:59.706 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:85 - Error reading or processing JSON file: 'list' object has no attribute 'get'
+2025-09-12 00:38:59.706 | INFO     | __main__:process_json_file:110 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 00:38:59.706 | INFO     | __main__:<module>:119 - JSON processing complete.
+2025-09-12 00:39:14.895 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 00:39:14.895 | INFO     | __main__:<module>:117 - Starting JSON processing...
+2025-09-12 00:39:14.897 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:85 - Error reading or processing JSON file: 'list' object has no attribute 'get'
+2025-09-12 00:39:14.897 | INFO     | __main__:process_json_file:110 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 00:39:14.897 | INFO     | __main__:<module>:119 - JSON processing complete.
+2025-09-12 00:40:21.176 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 00:40:21.176 | INFO     | __main__:<module>:118 - Starting JSON processing...
+2025-09-12 00:40:21.177 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:86 - Error reading or processing JSON file: 'list' object has no attribute 'get'
+2025-09-12 00:40:21.177 | INFO     | __main__:process_json_file:111 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 00:40:21.177 | INFO     | __main__:<module>:120 - JSON processing complete.
+2025-09-12 00:40:29.793 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 00:40:29.793 | INFO     | __main__:<module>:119 - Starting JSON processing...
+2025-09-12 00:40:29.793 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:87 - Error reading or processing JSON file: 'list' object has no attribute 'get'
+2025-09-12 00:40:29.793 | INFO     | __main__:process_json_file:112 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 00:40:29.793 | INFO     | __main__:<module>:121 - JSON processing complete.
+2025-09-12 00:40:33.922 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 00:40:33.923 | INFO     | __main__:<module>:119 - Starting JSON processing...
+2025-09-12 00:40:33.923 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:87 - Error reading or processing JSON file: 'list' object has no attribute 'get'
+2025-09-12 00:40:33.923 | INFO     | __main__:process_json_file:112 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 00:40:33.923 | INFO     | __main__:<module>:121 - JSON processing complete.
+2025-09-12 00:41:32.234 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 00:41:32.234 | INFO     | __main__:<module>:119 - Starting JSON processing...
+2025-09-12 00:41:32.235 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:87 - Error reading or processing JSON file: 'list' object has no attribute 'get'
+2025-09-12 00:41:32.235 | INFO     | __main__:process_json_file:112 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 00:41:32.235 | INFO     | __main__:<module>:121 - JSON processing complete.
+2025-09-12 01:03:44.570 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 01:03:44.571 | INFO     | __main__:<module>:116 - Starting JSON processing...
+2025-09-12 01:03:44.571 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:87 - Error reading or processing JSON file: 'list' object has no attribute 'get'
+2025-09-12 01:03:44.571 | INFO     | __main__:process_json_file:109 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 01:03:44.571 | INFO     | __main__:<module>:118 - JSON processing complete.
+2025-09-12 01:04:17.183 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 01:04:17.183 | INFO     | __main__:<module>:116 - Starting JSON processing...
+2025-09-12 01:04:17.185 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:87 - Error reading or processing JSON file: 'list' object has no attribute 'get'
+2025-09-12 01:04:17.185 | INFO     | __main__:process_json_file:109 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 01:04:17.185 | INFO     | __main__:<module>:118 - JSON processing complete.
+2025-09-12 01:06:16.028 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 01:06:16.028 | INFO     | __main__:<module>:116 - Starting JSON processing...
+2025-09-12 01:06:16.029 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:87 - Error reading or processing JSON file: 'list' object has no attribute 'get'
+2025-09-12 01:06:16.029 | INFO     | __main__:process_json_file:109 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 01:06:16.029 | INFO     | __main__:<module>:118 - JSON processing complete.
+2025-09-12 01:06:54.719 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 01:06:54.719 | INFO     | __main__:<module>:118 - Starting JSON processing...
+2025-09-12 01:06:54.720 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:89 - Error reading or processing JSON file: 'str' object has no attribute 'get'
+2025-09-12 01:06:54.720 | INFO     | __main__:process_json_file:111 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 01:06:54.720 | INFO     | __main__:<module>:120 - JSON processing complete.
+2025-09-12 01:07:27.078 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 01:07:27.078 | INFO     | __main__:<module>:118 - Starting JSON processing...
+2025-09-12 01:07:27.079 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:89 - Error reading or processing JSON file: 'str' object has no attribute 'get'
+2025-09-12 01:07:27.079 | INFO     | __main__:process_json_file:111 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 01:07:27.079 | INFO     | __main__:<module>:120 - JSON processing complete.
+2025-09-12 01:07:54.651 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 01:07:54.652 | INFO     | __main__:<module>:118 - Starting JSON processing...
+2025-09-12 01:07:54.652 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:89 - Error reading or processing JSON file: 'str' object has no attribute 'get'
+2025-09-12 01:07:54.652 | INFO     | __main__:process_json_file:111 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 01:07:54.652 | INFO     | __main__:<module>:120 - JSON processing complete.
+2025-09-12 01:09:31.576 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 01:09:31.576 | INFO     | __main__:<module>:118 - Starting JSON processing...
+2025-09-12 01:09:31.577 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:89 - Error reading or processing JSON file: 'str' object has no attribute 'get'
+2025-09-12 01:09:31.577 | INFO     | __main__:process_json_file:111 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 01:09:31.577 | INFO     | __main__:<module>:120 - JSON processing complete.
+2025-09-12 01:10:08.814 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 01:10:08.815 | INFO     | __main__:<module>:118 - Starting JSON processing...
+2025-09-12 01:10:08.815 | INFO     | __main__:process_json_file:111 - Processed JSON file: example_data/astros.json, Results saved to: example_processed/json_astronauts_by_craft.txt
+2025-09-12 01:10:08.815 | INFO     | __main__:<module>:120 - JSON processing complete.
+2025-09-12 01:11:07.086 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 01:11:07.086 | INFO     | __main__:<module>:119 - Starting JSON processing...
+2025-09-12 01:11:07.086 | INFO     | __main__:process_json_file:112 - Processed JSON file: example_data/astros.json, Results saved to: example_processed/json_astronauts_by_craft.txt
+2025-09-12 01:11:07.086 | INFO     | __main__:<module>:121 - JSON processing complete.
+2025-09-12 01:12:05.384 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 01:12:05.384 | INFO     | __main__:<module>:118 - Starting JSON processing...
+2025-09-12 01:12:05.385 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:89 - Error reading or processing JSON file: 'str' object has no attribute 'get'
+2025-09-12 01:12:05.385 | INFO     | __main__:process_json_file:111 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 01:12:05.385 | INFO     | __main__:<module>:120 - JSON processing complete.
+2025-09-12 01:12:39.086 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 01:12:39.086 | INFO     | __main__:<module>:118 - Starting JSON processing...
+2025-09-12 01:12:39.086 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:89 - Error reading or processing JSON file: 'str' object has no attribute 'get'
+2025-09-12 01:12:39.087 | INFO     | __main__:process_json_file:111 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 01:12:39.087 | INFO     | __main__:<module>:120 - JSON processing complete.
+2025-09-12 01:15:21.188 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 01:15:21.188 | INFO     | __main__:<module>:118 - Starting JSON processing...
+2025-09-12 01:15:21.188 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:89 - Error reading or processing JSON file: 'str' object has no attribute 'get'
+2025-09-12 01:15:21.189 | INFO     | __main__:process_json_file:111 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 01:15:21.189 | INFO     | __main__:<module>:120 - JSON processing complete.
+2025-09-12 01:15:52.224 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 01:15:52.224 | INFO     | __main__:<module>:118 - Starting JSON processing...
+2025-09-12 01:15:52.224 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:89 - Error reading or processing JSON file: dictionary update sequence element #0 has length 12; 2 is required
+2025-09-12 01:15:52.225 | INFO     | __main__:process_json_file:111 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 01:15:52.225 | INFO     | __main__:<module>:120 - JSON processing complete.
+2025-09-12 01:17:50.120 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 01:17:50.120 | INFO     | __main__:<module>:121 - Starting JSON processing...
+2025-09-12 01:17:50.121 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:92 - Error reading or processing JSON file: list indices must be integers or slices, not dict
+2025-09-12 01:17:50.121 | INFO     | __main__:process_json_file:114 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 01:17:50.121 | INFO     | __main__:<module>:123 - JSON processing complete.
+2025-09-12 01:18:33.186 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 01:18:33.186 | INFO     | __main__:<module>:122 - Starting JSON processing...
+2025-09-12 01:18:33.187 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:93 - Error reading or processing JSON file: list indices must be integers or slices, not dict
+2025-09-12 01:18:33.187 | INFO     | __main__:process_json_file:115 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 01:18:33.187 | INFO     | __main__:<module>:124 - JSON processing complete.
+2025-09-12 01:18:55.483 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 01:18:55.484 | INFO     | __main__:<module>:122 - Starting JSON processing...
+2025-09-12 01:18:55.484 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:93 - Error reading or processing JSON file: list indices must be integers or slices, not dict
+2025-09-12 01:18:55.484 | INFO     | __main__:process_json_file:115 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 01:18:55.484 | INFO     | __main__:<module>:124 - JSON processing complete.
+2025-09-12 01:32:35.596 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 01:32:35.596 | INFO     | __main__:<module>:122 - Starting JSON processing...
+2025-09-12 01:32:35.597 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:93 - Error reading or processing JSON file: list indices must be integers or slices, not dict
+2025-09-12 01:32:35.598 | INFO     | __main__:process_json_file:115 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 01:32:35.598 | INFO     | __main__:<module>:124 - JSON processing complete.
+2025-09-12 01:34:01.160 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 01:34:01.160 | INFO     | __main__:<module>:123 - Starting JSON processing...
+2025-09-12 01:34:01.161 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:94 - Error reading or processing JSON file: list indices must be integers or slices, not dict
+2025-09-12 01:34:01.162 | INFO     | __main__:process_json_file:116 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 01:34:01.162 | INFO     | __main__:<module>:125 - JSON processing complete.
+2025-09-12 01:36:13.464 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 01:36:13.464 | INFO     | __main__:<module>:120 - Starting JSON processing...
+2025-09-12 01:36:13.465 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:91 - Error reading or processing JSON file: name 'new_country_data_dictionary' is not defined
+2025-09-12 01:36:13.465 | INFO     | __main__:process_json_file:113 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 01:36:13.465 | INFO     | __main__:<module>:122 - JSON processing complete.
+2025-09-12 01:36:31.056 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 01:36:31.056 | INFO     | __main__:<module>:120 - Starting JSON processing...
+2025-09-12 01:36:31.056 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:91 - Error reading or processing JSON file: name 'new_country_data_dictionary' is not defined
+2025-09-12 01:36:31.057 | INFO     | __main__:process_json_file:113 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 01:36:31.057 | INFO     | __main__:<module>:122 - JSON processing complete.
+2025-09-12 01:38:01.926 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 01:38:01.927 | INFO     | __main__:<module>:122 - Starting JSON processing...
+2025-09-12 01:38:01.927 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:93 - Error reading or processing JSON file: name 'new_country_data_dictionary' is not defined
+2025-09-12 01:38:01.928 | INFO     | __main__:process_json_file:115 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 01:38:01.928 | INFO     | __main__:<module>:124 - JSON processing complete.
+2025-09-12 01:38:58.974 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 01:38:58.974 | INFO     | __main__:<module>:123 - Starting JSON processing...
+2025-09-12 01:38:58.975 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:94 - Error reading or processing JSON file: list indices must be integers or slices, not dict
+2025-09-12 01:38:58.975 | INFO     | __main__:process_json_file:116 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 01:38:58.975 | INFO     | __main__:<module>:125 - JSON processing complete.
+2025-09-12 01:39:32.991 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 01:39:32.992 | INFO     | __main__:<module>:125 - Starting JSON processing...
+2025-09-12 01:39:32.993 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:96 - Error reading or processing JSON file: list indices must be integers or slices, not dict
+2025-09-12 01:39:32.993 | INFO     | __main__:process_json_file:118 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 01:39:32.993 | INFO     | __main__:<module>:127 - JSON processing complete.
+2025-09-12 01:40:11.638 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 01:40:11.638 | INFO     | __main__:<module>:126 - Starting JSON processing...
+2025-09-12 01:40:11.640 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:97 - Error reading or processing JSON file: list indices must be integers or slices, not dict
+2025-09-12 01:40:11.640 | INFO     | __main__:process_json_file:119 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 01:40:11.640 | INFO     | __main__:<module>:128 - JSON processing complete.
+2025-09-12 01:40:56.468 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 01:40:56.468 | INFO     | __main__:<module>:127 - Starting JSON processing...
+2025-09-12 01:40:56.469 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:98 - Error reading or processing JSON file: list indices must be integers or slices, not dict
+2025-09-12 01:40:56.470 | INFO     | __main__:process_json_file:120 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 01:40:56.470 | INFO     | __main__:<module>:129 - JSON processing complete.
+2025-09-12 02:57:24.639 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 02:57:24.639 | INFO     | __main__:<module>:127 - Starting JSON processing...
+2025-09-12 02:57:24.641 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:98 - Error reading or processing JSON file: list indices must be integers or slices, not dict
+2025-09-12 02:57:24.641 | INFO     | __main__:process_json_file:120 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 02:57:24.641 | INFO     | __main__:<module>:129 - JSON processing complete.
+2025-09-12 02:59:14.137 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 02:59:14.137 | INFO     | __main__:<module>:128 - Starting JSON processing...
+2025-09-12 02:59:14.139 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:99 - Error reading or processing JSON file: list indices must be integers or slices, not str
+2025-09-12 02:59:14.139 | INFO     | __main__:process_json_file:121 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 02:59:14.139 | INFO     | __main__:<module>:130 - JSON processing complete.
+2025-09-12 03:00:07.182 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 03:00:07.182 | INFO     | __main__:<module>:129 - Starting JSON processing...
+2025-09-12 03:00:07.183 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:100 - Error reading or processing JSON file: list indices must be integers or slices, not str
+2025-09-12 03:00:07.184 | INFO     | __main__:process_json_file:122 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 03:00:07.184 | INFO     | __main__:<module>:131 - JSON processing complete.
+2025-09-12 03:00:40.290 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 03:00:40.290 | INFO     | __main__:<module>:128 - Starting JSON processing...
+2025-09-12 03:00:40.292 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:99 - Error reading or processing JSON file: list indices must be integers or slices, not str
+2025-09-12 03:00:40.292 | INFO     | __main__:process_json_file:121 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 03:00:40.292 | INFO     | __main__:<module>:130 - JSON processing complete.
+2025-09-12 03:02:14.075 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 03:02:14.075 | INFO     | __main__:<module>:129 - Starting JSON processing...
+2025-09-12 03:02:14.077 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:100 - Error reading or processing JSON file: unsupported operand type(s) for -: 'str' and 'int'
+2025-09-12 03:02:14.077 | INFO     | __main__:process_json_file:122 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 03:02:14.077 | INFO     | __main__:<module>:131 - JSON processing complete.
+2025-09-12 03:05:28.134 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 03:05:28.134 | INFO     | __main__:<module>:128 - Starting JSON processing...
+2025-09-12 03:05:28.136 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:99 - Error reading or processing JSON file: name 'new_country_data_dictionary' is not defined
+2025-09-12 03:05:28.137 | INFO     | __main__:process_json_file:121 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 03:05:28.137 | INFO     | __main__:<module>:130 - JSON processing complete.
+2025-09-12 03:07:02.239 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 03:07:02.239 | INFO     | __main__:<module>:128 - Starting JSON processing...
+2025-09-12 03:07:02.241 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:99 - Error reading or processing JSON file: name 'new_country_data_dictionary' is not defined
+2025-09-12 03:07:02.242 | INFO     | __main__:process_json_file:121 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 03:07:02.242 | INFO     | __main__:<module>:130 - JSON processing complete.
+2025-09-12 03:08:18.515 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 03:08:18.515 | INFO     | __main__:<module>:130 - Starting JSON processing...
+2025-09-12 03:08:18.516 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:101 - Error reading or processing JSON file: too many values to unpack (expected 2)
+2025-09-12 03:08:18.516 | INFO     | __main__:process_json_file:123 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 03:08:18.516 | INFO     | __main__:<module>:132 - JSON processing complete.
+2025-09-12 03:12:07.483 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 03:12:07.483 | INFO     | __main__:<module>:132 - Starting JSON processing...
+2025-09-12 03:12:07.484 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:103 - Error reading or processing JSON file: too many values to unpack (expected 2)
+2025-09-12 03:12:07.484 | INFO     | __main__:process_json_file:125 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 03:12:07.484 | INFO     | __main__:<module>:134 - JSON processing complete.
+2025-09-12 03:13:35.112 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 03:13:35.112 | INFO     | __main__:<module>:132 - Starting JSON processing...
+2025-09-12 03:13:35.113 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:103 - Error reading or processing JSON file: 0
+2025-09-12 03:13:35.113 | INFO     | __main__:process_json_file:125 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 03:13:35.113 | INFO     | __main__:<module>:134 - JSON processing complete.
+2025-09-12 03:14:02.868 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 03:14:02.868 | INFO     | __main__:<module>:132 - Starting JSON processing...
+2025-09-12 03:14:02.869 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:103 - Error reading or processing JSON file: unhashable type: 'dict'
+2025-09-12 03:14:02.869 | INFO     | __main__:process_json_file:125 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 03:14:02.869 | INFO     | __main__:<module>:134 - JSON processing complete.
+2025-09-12 03:14:24.895 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 03:14:24.895 | INFO     | __main__:<module>:132 - Starting JSON processing...
+2025-09-12 03:14:24.895 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:103 - Error reading or processing JSON file: 'dict' object has no attribute 'append'
+2025-09-12 03:14:24.895 | INFO     | __main__:process_json_file:125 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 03:14:24.896 | INFO     | __main__:<module>:134 - JSON processing complete.
+2025-09-12 03:15:20.595 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 03:15:20.595 | INFO     | __main__:<module>:132 - Starting JSON processing...
+2025-09-12 03:15:20.596 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:103 - Error reading or processing JSON file: too many values to unpack (expected 2)
+2025-09-12 03:15:20.596 | INFO     | __main__:process_json_file:125 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 03:15:20.597 | INFO     | __main__:<module>:134 - JSON processing complete.
+2025-09-12 03:16:22.468 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 03:16:22.468 | INFO     | __main__:<module>:133 - Starting JSON processing...
+2025-09-12 03:16:22.469 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:104 - Error reading or processing JSON file: name 'new_country_data_dictionary' is not defined
+2025-09-12 03:16:22.470 | INFO     | __main__:process_json_file:126 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 03:16:22.470 | INFO     | __main__:<module>:135 - JSON processing complete.
+2025-09-12 03:19:23.162 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 03:19:23.162 | INFO     | __main__:<module>:135 - Starting JSON processing...
+2025-09-12 03:19:23.164 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:106 - Error reading or processing JSON file: name 'new_country_data_dictionary' is not defined
+2025-09-12 03:19:23.164 | INFO     | __main__:process_json_file:128 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 03:19:23.164 | INFO     | __main__:<module>:137 - JSON processing complete.
+2025-09-12 03:19:59.523 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 03:19:59.524 | INFO     | __main__:<module>:137 - Starting JSON processing...
+2025-09-12 03:19:59.524 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:108 - Error reading or processing JSON file: name 'new_country_data_dictionary' is not defined
+2025-09-12 03:19:59.524 | INFO     | __main__:process_json_file:130 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 03:19:59.524 | INFO     | __main__:<module>:139 - JSON processing complete.
+2025-09-12 03:21:10.746 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 03:21:10.746 | INFO     | __main__:<module>:138 - Starting JSON processing...
+2025-09-12 03:21:10.746 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:109 - Error reading or processing JSON file: name 'new_country_data_dictionary' is not defined
+2025-09-12 03:21:10.747 | INFO     | __main__:process_json_file:131 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 03:21:10.747 | INFO     | __main__:<module>:140 - JSON processing complete.
+2025-09-12 03:23:33.341 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 03:23:33.341 | INFO     | __main__:<module>:140 - Starting JSON processing...
+2025-09-12 03:23:33.342 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:111 - Error reading or processing JSON file: name 'new_country_data_dictionary' is not defined
+2025-09-12 03:23:33.342 | INFO     | __main__:process_json_file:133 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 03:23:33.342 | INFO     | __main__:<module>:142 - JSON processing complete.
+2025-09-12 03:23:59.225 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 03:23:59.226 | INFO     | __main__:<module>:140 - Starting JSON processing...
+2025-09-12 03:23:59.226 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:111 - Error reading or processing JSON file: 'NoneType' object is not iterable
+2025-09-12 03:23:59.226 | INFO     | __main__:process_json_file:133 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 03:23:59.226 | INFO     | __main__:<module>:142 - JSON processing complete.
+2025-09-12 04:09:28.040 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 04:09:28.040 | INFO     | __main__:<module>:142 - Starting JSON processing...
+2025-09-12 04:09:28.040 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:113 - Error reading or processing JSON file: 'dict' object has no attribute 'type'
+2025-09-12 04:09:28.041 | INFO     | __main__:process_json_file:135 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 04:09:28.041 | INFO     | __main__:<module>:144 - JSON processing complete.
+2025-09-12 04:09:47.645 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 04:09:47.645 | INFO     | __main__:<module>:142 - Starting JSON processing...
+2025-09-12 04:09:47.646 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:113 - Error reading or processing JSON file: 'NoneType' object is not iterable
+2025-09-12 04:09:47.646 | INFO     | __main__:process_json_file:135 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 04:09:47.646 | INFO     | __main__:<module>:144 - JSON processing complete.
+2025-09-12 04:10:21.527 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 04:10:21.527 | INFO     | __main__:<module>:143 - Starting JSON processing...
+2025-09-12 04:10:21.528 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:114 - Error reading or processing JSON file: 'NoneType' object is not iterable
+2025-09-12 04:10:21.528 | INFO     | __main__:process_json_file:136 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 04:10:21.528 | INFO     | __main__:<module>:145 - JSON processing complete.
+2025-09-12 04:11:42.133 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 04:11:42.133 | INFO     | __main__:<module>:142 - Starting JSON processing...
+2025-09-12 04:11:42.133 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:113 - Error reading or processing JSON file: 'NoneType' object is not iterable
+2025-09-12 04:11:42.134 | INFO     | __main__:process_json_file:135 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 04:11:42.134 | INFO     | __main__:<module>:144 - JSON processing complete.
+2025-09-12 04:12:17.300 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 04:12:17.300 | INFO     | __main__:<module>:142 - Starting JSON processing...
+2025-09-12 04:12:17.301 | ERROR    | __main__:count_countries_with_pop_greater_than_usa:113 - Error reading or processing JSON file: 'NoneType' object is not iterable
+2025-09-12 04:12:17.301 | INFO     | __main__:process_json_file:135 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 04:12:17.301 | INFO     | __main__:<module>:144 - JSON processing complete.
+2025-09-12 04:14:16.419 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 04:14:16.419 | INFO     | __main__:<module>:142 - Starting JSON processing...
+2025-09-12 04:14:16.420 | INFO     | __main__:process_json_file:135 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 04:14:16.420 | INFO     | __main__:<module>:144 - JSON processing complete.
+2025-09-12 04:19:19.021 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 04:19:19.021 | INFO     | __main__:<module>:114 - Starting JSON processing...
+2025-09-12 04:19:19.022 | INFO     | __main__:process_json_file:107 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 04:19:19.022 | INFO     | __main__:<module>:116 - JSON processing complete.
+2025-09-12 04:19:31.306 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 04:19:31.306 | INFO     | __main__:<module>:110 - Starting JSON processing...
+2025-09-12 04:19:31.307 | INFO     | __main__:process_json_file:103 - Processed JSON file: downloaded_data/country_populations.json, Results saved to: downloaded_data_processed/populations_greater_than_usa.txt
+2025-09-12 04:19:31.307 | INFO     | __main__:<module>:112 - JSON processing complete.
+2025-09-12 04:20:51.001 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 04:20:51.001 | INFO     | __main__:main:98 - Starting JSON fetch demonstration...
+2025-09-12 04:20:51.001 | INFO     | __main__:fetch_json_file:57 - Fetching JSON data from https://raw.githubusercontent.com/sharmadhiraj/free-json-datasets/refs/heads/master/datasets/world-population-by-country-2020.json...
+2025-09-12 04:20:51.207 | INFO     | __main__:write_json_file:81 - Writing JSON data to downloaded_data/country_data.json...
+2025-09-12 04:20:51.211 | INFO     | __main__:write_json_file:85 - SUCCESS: JSON data written to downloaded_data/country_data.json
+2025-09-12 04:20:51.211 | INFO     | __main__:fetch_json_file:61 - SUCCESS: JSON file fetched and saved as country_data.json
+2025-09-12 04:20:58.356 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 04:20:58.356 | INFO     | __main__:<module>:110 - Starting JSON processing...
+2025-09-12 04:20:58.356 | ERROR    | __main__:countries_and_populations:78 - Error reading or processing JSON file: [Errno 2] No such file or directory: 'downloaded_data/countries_data.json'
+2025-09-12 04:20:58.357 | INFO     | __main__:process_json_file:103 - Processed JSON file: downloaded_data/countries_data.json, Results saved to: downloaded_data_processed/countries_populations.txt
+2025-09-12 04:20:58.357 | INFO     | __main__:<module>:112 - JSON processing complete.
+2025-09-12 04:25:22.280 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 04:25:22.281 | INFO     | __main__:<module>:113 - Starting JSON processing...
+2025-09-12 04:25:22.281 | ERROR    | __main__:countries_and_populations:81 - Error reading or processing JSON file: [Errno 2] No such file or directory: 'downloaded_data/countries_data.json'
+2025-09-12 04:28:21.834 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 04:28:21.834 | INFO     | __main__:<module>:111 - Starting JSON processing...
+2025-09-12 04:28:21.834 | ERROR    | __main__:countries_and_populations:78 - Error reading or processing JSON file: [Errno 2] No such file or directory: 'downloaded_data/countries_populations.json'
+2025-09-12 04:28:40.109 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 04:28:40.109 | INFO     | __main__:<module>:110 - Starting JSON processing...
+2025-09-12 04:28:40.109 | ERROR    | __main__:countries_and_populations:78 - Error reading or processing JSON file: [Errno 2] No such file or directory: 'downloaded_data/countries_populations.json'
+2025-09-12 04:28:40.109 | INFO     | __main__:process_json_file:103 - Processed JSON file: downloaded_data/countries_populations.json, Results saved to: downloaded_data_processed/countries_populations.txt
+2025-09-12 04:28:40.109 | INFO     | __main__:<module>:112 - JSON processing complete.
+2025-09-12 04:28:50.289 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 04:28:50.289 | INFO     | __main__:main:98 - Starting JSON fetch demonstration...
+2025-09-12 04:28:50.289 | INFO     | __main__:fetch_json_file:57 - Fetching JSON data from https://raw.githubusercontent.com/sharmadhiraj/free-json-datasets/refs/heads/master/datasets/world-population-by-country-2020.json...
+2025-09-12 04:28:50.472 | INFO     | __main__:write_json_file:81 - Writing JSON data to downloaded_data/countries_data.json...
+2025-09-12 04:28:50.476 | INFO     | __main__:write_json_file:85 - SUCCESS: JSON data written to downloaded_data/countries_data.json
+2025-09-12 04:28:50.476 | INFO     | __main__:fetch_json_file:61 - SUCCESS: JSON file fetched and saved as countries_data.json
+2025-09-12 04:30:25.174 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 04:30:25.174 | INFO     | __main__:main:98 - Starting JSON fetch demonstration...
+2025-09-12 04:30:25.174 | INFO     | __main__:fetch_json_file:57 - Fetching JSON data from https://raw.githubusercontent.com/sharmadhiraj/free-json-datasets/refs/heads/master/datasets/world-population-by-country-2020.json...
+2025-09-12 04:30:25.240 | INFO     | __main__:write_json_file:81 - Writing JSON data to downloaded_data/countries_data.json...
+2025-09-12 04:30:25.242 | INFO     | __main__:write_json_file:85 - SUCCESS: JSON data written to downloaded_data/countries_data.json
+2025-09-12 04:30:25.242 | INFO     | __main__:fetch_json_file:61 - SUCCESS: JSON file fetched and saved as countries_data.json
+2025-09-12 04:30:59.403 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 04:30:59.403 | INFO     | __main__:<module>:110 - Starting JSON processing...
+2025-09-12 04:30:59.404 | INFO     | __main__:process_json_file:103 - Processed JSON file: downloaded_data/countries_data.json, Results saved to: downloaded_data_processed/countries_populations.txt
+2025-09-12 04:30:59.404 | INFO     | __main__:<module>:112 - JSON processing complete.
+2025-09-12 04:32:09.951 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 04:32:09.951 | INFO     | __main__:<module>:110 - Starting JSON processing...
+2025-09-12 04:32:09.952 | INFO     | __main__:process_json_file:103 - Processed JSON file: downloaded_data/countries_data.json, Results saved to: downloaded_data_processed/countries_populations.txt
+2025-09-12 04:32:09.952 | INFO     | __main__:<module>:112 - JSON processing complete.
+2025-09-12 04:32:35.092 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 04:32:35.092 | INFO     | __main__:main:98 - Starting JSON fetch demonstration...
+2025-09-12 04:32:35.092 | INFO     | __main__:fetch_json_file:57 - Fetching JSON data from https://raw.githubusercontent.com/sharmadhiraj/free-json-datasets/refs/heads/master/datasets/world-population-by-country-2020.json...
+2025-09-12 04:32:35.165 | INFO     | __main__:write_json_file:81 - Writing JSON data to downloaded_data/countries_data.json...
+2025-09-12 04:32:35.167 | INFO     | __main__:write_json_file:85 - SUCCESS: JSON data written to downloaded_data/countries_data.json
+2025-09-12 04:32:35.167 | INFO     | __main__:fetch_json_file:61 - SUCCESS: JSON file fetched and saved as countries_data.json
+2025-09-12 04:32:37.787 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-09-12 04:32:37.787 | INFO     | __main__:<module>:110 - Starting JSON processing...
+2025-09-12 04:32:37.789 | INFO     | __main__:process_json_file:103 - Processed JSON file: downloaded_data/countries_data.json, Results saved to: downloaded_data_processed/countries_populations.txt
+2025-09-12 04:32:37.789 | INFO     | __main__:<module>:112 - JSON processing complete.
